@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Mounika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            text-decoration: none;
+            font-size: 1.1em;
+            color: #007bff;
+            display: block;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mounika Lakshmi Priya Parasa</h1>
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#">Projects</a> | 
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Software Developer</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Portfolio Highlights</h3>
+                <ul>
+                    <li>Responsive Web Design</li>
+                    <li>Class Representative</li>
+                    <li>AWS Spy Connection</li>
+                    <li>Canva Poster Maker</li>
+                    <li>SQL Database Management</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Career Achievements</h3>
+                <p><strong>Internship:</strong> Henotics IT Solutions</p>
+                <p><strong>AWS Project:</strong> Establishing spy connection between two VPCs for secure data transfer across accounts.</p>
+                <p><a href="https://www.linkedin.com/in/parasa-mounika-lakshmi-priya/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+
+            <div class="card">
+                <h3>Community Involvement</h3>
+                <p>Active participant and Student Co-Ordinator in CSI Body of IT Department.</p>
+                <p>Organized events enhancing teamwork, public relations, and leadership skills.</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>AWS Certification - Black Buck Engineers</li>
+                    <li>AWS Cloud Technical Essentials - edX</li>
+                    <li>Excel Skills Job Simulation - JP Morgan Chase & Co.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Academic Qualifications</h3>
+                <p><strong>B.Tech (IT):</strong> SRKR Engineering College | CGPA: 8.06</p>
+                <p><strong>Intermediate (MPC):</strong> Sri Gayatri Junior College | 95.8%</p>
+                <p><strong>SSC:</strong> Sree Bharathi E.M School | CGPA: 10</p>
+                <h4>Courses:</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Peer Reviews</h3>
+        <div class="grid">
+            <div class="card">
+                <p><i>“Mounika consistently delivers innovative solutions that exceed project expectations.”</i> - Pushpa, Project Lead</p>
+            </div>
+            <div class="card">
+                <p><i>“Mounika's approach to problem-solving has been instrumental in our success.”</i> - Madhavi Mam, Project Mentor</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>Phone : 9492222965</p>
+            <a href="mailto:mounika@example.com">Email: parasamounika6678@gmail.com</a>
+            <a href="https://www.linkedin.com/in/parasa-mounika-lakshmi-priya/" target="_blank">LinkedIn Profile</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 All rights reserved by Mounika
+    </footer>
+
+</body>
+</html>
